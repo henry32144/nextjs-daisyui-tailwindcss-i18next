@@ -11,6 +11,7 @@ export default async function Page({
   return (
     <>
       <h1>{t("title")}</h1>
+      <button className="btn btn-primary">Daisy Button</button>
       {/* @ts-expect-error Server Component */}
       <Footer lng={lng} />
     </>
